@@ -1,0 +1,27 @@
+{
+  "name": "nodeboats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "ejs": "^2.3.1",
+    "express": "^4.12.4",
+    "johnny-five": "^0.8.76",
+    "spark-io": "^0.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/courtneynguyen/nodeboats2015.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/courtneynguyen/nodeboats2015/issues"
+  },
+  "homepage": "https://github.com/courtneynguyen/nodeboats2015"
+}

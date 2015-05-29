@@ -1,0 +1,33 @@
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div>
+        <h2>Directions</h2>
+        <form method="POST" action="/nodeboat" class="big">
+            <input id="value" type="number" name="degree" value="30" min="-180" max="180" step="30"/>
+            <input class="big" type="submit"/>  
+        </form>
+        <div class="couple">
+            <form method="POST" action="/nodeboat">
+                <input type="submit" name="degree" value="-45"/>
+            </form>
+            <form method="POST" action="/nodeboat">
+                <input type="submit" name="degree" value="45"/>
+            </form>
+        </div>
+<!--
+        <h2>Power</h2>
+        <form method="POST" action="/nodeboat/power" class="big">
+            <input type="number" name="power" value="255" min="-180" max="255" step="100"/>
+            <input class="big" type="submit"/>  
+        </form>
+-->
+    </div>
+<script>
+
+
+</script>
+</body>
+</html>

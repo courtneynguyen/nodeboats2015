@@ -1,0 +1,30 @@
+form{
+ width: 400px;
+  margin: 0 auto;
+    height: 70px;
+}
+input{
+width:200px;
+border:1px solid black;
+background-color:white;
+}
+div{
+width:500px;
+margin:0 auto;
+display:block;
+}
+form > input{
+ float:left;   
+}
+.couple > input{
+    width:100px;
+}
+.couple form{
+ height:auto;   
+}
+input.big{
+    height:51px; 
+}
+form.big input, input.big{
+ font-size:40px;   
+}
