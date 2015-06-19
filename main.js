@@ -47,9 +47,9 @@ board.on("ready", function() {
   */
 
   // Add servo to REPL (optional)
-  this.repl.inject({
-    servo: servo
-  });
+//  this.repl.inject({
+//    servo: servo
+//  });
 
 
   // Servo API
